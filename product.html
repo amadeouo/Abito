@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <title>Abito</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-box">
+        <div class="header-logo">
+          <img
+            src="./images/logo.svg"
+            alt="logo"
+            width="27px"
+            height="27px"
+          >
+          <span class="logo-text">Abito</span>
+        </div>
+        <div class="header-controls">
+          <button class="btn btn-outline">Вход и регистрация</button>
+          <button class="btn btn-primary">Подать объявление</button>
+        </div>
+
+        <div class="burger-button">
+          <img
+            src="./images/burger-button.svg"
+            alt="menu"
+            aria-label="Меню"
+            title="Меню"
+          >
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="search">
+      <div class="container">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Поиск по объявлениям"
+            id="search_ads"
+          >
+          <button
+            class="btn btn-outline search-button"
+            type="submit"
+          >
+            <img
+              class="search-button__icon"
+              src="/images/search.svg"
+              alt="search"
+              aria-label="search"
+              title="search"
+              width="15"
+              height="15"
+            >
+            <span class="search-button__text">Найти</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="container">
+        <div class="content-box">
+          <div class="content-product">
+            <div class="content-product__left prod-left">
+              <h2 class="prod-left__title">Электросамокат kugoo Gx</h2>
+              <div class="prod-left__image">
+                <img
+                  src="./images/scooter.jpg"
+                  alt=""
+                >
+              </div>
+              <p class="prod-left__desc">
+                Продаю не спеша самокат в хорошем состоянии.<br>
+                Торг возможен.<br>
+                За период эксплуатации не выявлено ни одной проблемы.<br>
+                Из минусов — нужно прокачать задний тормоз.<br>
+                Установлен отсекатель сзади.<br>
+                Покрышки CST внедорожные.<br>
+                Все на подшипниках, болты протянуты.<br>
+                Пробег 881км, это немного для такого зверя.<br>
+              </p>
+            </div>
+            <div class="content-product__right prod-right">
+              <h2 class="prod-right__price">75 000 ₽</h2>
+              <button class="prod-right__button btn btn-primary">Показать телефон</button>
+            </div>
+          </div>
+          <div class="content-side">
+            <h3 class="content-side__title">Сервисы и услуги</h3>
+            <div class="content-side__benefits-list">
+              <div class="content-side__benefits-item benefits">
+                <div class="benefits__img">
+                  <img
+                    src="./images/delivery-truck.svg"
+                    alt="truck"
+                    width="30"
+                    height="30"
+                  >
+                </div>
+                <h4 class="benefits__title">Доставка</h4>
+                <p class="benefits__desc">Проверка при получении и возможность бесплатно вернуть товар</p>
+              </div>
+              <div class="content-side__benefits-item benefits">
+                <div class="benefits__img">
+                  <img
+                    src="./images/car.svg"
+                    alt="car"
+                    width="30"
+                    height="30"
+                  >
+                </div>
+                <h4 class="benefits__title">Автотека</h4>
+                <p class="benefits__desc">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
+              </div>
+              <div class="content-side__benefits-item benefits">
+                <div class="benefits__img">
+                  <img
+                    src="./images/home.svg"
+                    alt="car"
+                    width="30"
+                    height="30"
+                  >
+                </div>
+                <h4 class="benefits__title">Онлайн-бронирование жилья</h4>
+                <p class="benefits__desc">Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России</p>
+              </div>
+            </div>
+            <hr class="content-side__line">
+            <footer class="content-side__footer footer">
+              <p class="footer__company-info">© ООО «Абито», 2011–2021</p>
+              <a class="footer__privacy" href="#">Политика конфиденциальности</a>
+              <a class="footer__privacy" href="#">Обработка данных</a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <header>
+  </header>
+</body>
+</html>
