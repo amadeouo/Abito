@@ -245,6 +245,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  text-decoration: none;
+  color: rgba(10, 20, 58, 1);
 }
 
 .header-logo span {
