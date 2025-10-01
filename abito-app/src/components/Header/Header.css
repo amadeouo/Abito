@@ -1,0 +1,35 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(10, 20, 58, 1);
+}
+
+.header-logo span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: 6px;
+}
+
+.header-controls {
+  display: flex;
+}
+
+@media (max-width: 786px) {
+  .header-controls {
+    display: none;
+  }
+}
