@@ -1,4 +1,5 @@
 import './Card.css'
+import { Link } from 'react-router-dom'
 
 const Card = (props) => {
   const {
@@ -12,7 +13,7 @@ const Card = (props) => {
 
   return (
     <>
-      <a href="#!" className="content-main__item card-item">
+      <Link to={`/product/${id}`} className="content-main__item card-item">
         <div className="card-item__image">
           <img
             src={img}
@@ -26,7 +27,7 @@ const Card = (props) => {
           <span className="card-item__desc">{address}</span>
           <span className="card-item__desc"><time dateTime="07-10T11:39">{time}</time></span>
         </div>
-      </a>
+      </Link>
     </>
   )
 }
